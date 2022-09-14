@@ -1,5 +1,5 @@
 {
-    "name": "amirpourastarabadi/laravel-sitemap",
+    "name": "pelazio/laravel-sitemap",
     "description": "Pelazio Sitemap package for Laravel.",
     "homepage": "https://github.com/pelazio/laravel-sitemap",
     "keywords": ["pelazio", "laravel", "php", "sitemap", "generator", "xml", "html", "google-news"],
