@@ -1,42 +1,40 @@
 {
-    "name": "laravelium/sitemap",
-    "description": "Laravelium Sitemap package for Laravel.",
-    "homepage": "https://laravelium.com",
-    "keywords": ["laravelium", "laravel", "php", "sitemap", "generator", "xml", "html", "google-news"],
+    "name": "pelazio/laravel-sitemap",
+    "description": "Pelazio Sitemap package for Laravel.",
+    "homepage": "https://github.com/pelazio/laravel-sitemap",
+    "keywords": ["pelazio", "laravel", "php", "sitemap", "generator", "xml", "html", "google-news"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Rumen Damyanov",
-            "email": "r@alfamatter.com",
-            "role": "Developer",
-            "homepage": "https://darumen.com"
+            "name": "Pelazio",
+            "role": "Maintainer",
+            "homepage": "https://github.com/pelazio"
         }
     ],
     "support": {
-        "issues": "https://github.com/Laravelium/laravel-sitemap/issues",
-        "source": "https://github.com/Laravelium/laravel-sitemap",
-        "wiki": "https://github.com/Laravelium/laravel-sitemap/wiki"
+        "issues": "https://github.com/pelazio/laravel-sitemap/issues",
+        "source": "https://github.com/pelazio/laravel-sitemap"
     },
     "require": {
-        "php": ">=7.3",
-        "illuminate/support": "^8.0",
-        "illuminate/filesystem": "^8.0"
+        "php": ">=7.4|^8",
+        "illuminate/support": "^8|^9",
+        "illuminate/filesystem": "^8|^9"
     },
     "require-dev": {
-        "laravel/framework": "^8.0",
+        "laravel/framework": "^8.0|^9",
         "phpunit/phpunit": "^9.3",
         "orchestra/testbench-core": "^6.0",
         "php-coveralls/php-coveralls" : "^2.2"
     },
     "autoload": {
         "psr-0": {
-            "Laravelium\\Sitemap": "src/"
+            "Pelazio\\Sitemap": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Laravelium\\Sitemap\\SitemapServiceProvider"
+                "Pelazio\\Sitemap\\SitemapServiceProvider"
             ]
         }
     },

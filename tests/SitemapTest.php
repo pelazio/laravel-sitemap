@@ -1,10 +1,10 @@
 <?php
 
-namespace Laravelium\Sitemap\Test;
+namespace Pelazio\Sitemap\Test;
 
-use Laravelium\Sitemap\Sitemap;
+use Pelazio\Sitemap\Sitemap;
 use Orchestra\Testbench\TestCase;
-use Laravelium\Sitemap\SitemapServiceProvider;
+use Pelazio\Sitemap\SitemapServiceProvider;
 
 class SitemapTest extends TestCase
 {
